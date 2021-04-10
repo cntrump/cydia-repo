@@ -1,0 +1,30 @@
+Package: com.github.Dreamacro.clash
+Version: 1.5.0-7
+Architecture: iphoneos-arm
+Maintainer: lvv (me@lvv.me)
+Depends: firmware (>= 10.0)
+Filename: ./clash.deb
+Size: 3713692
+MD5sum: a55ae358c3202a616001658fc68e1962
+SHA1: 00094533a6a5b69cfcf06454963aae02ff46e7b8
+SHA256: 4fc060bb32a5c6e498190fb0b4cde2b4616fa8562cd5e32eca76e4f172d10bd9
+Section: Networking
+Description: A rule-based tunnel in Go.
+Author: Dreamacro (Dreamacro)
+Name: clash
+
+Package: com.github.p4gefau1t.trojan-go
+Version: 0.8.3-22
+Architecture: iphoneos-arm
+Maintainer: lvv (me@lvv.me)
+Depends: firmware (>= 10.0)
+Filename: ./trojan-go.deb
+Size: 3419348
+MD5sum: 0bf73e25d2ea6a02e11d6c3030d50891
+SHA1: 47074c60b8bcd4705206015bbf2dfc04ab4ba502
+SHA256: 9ff0b204c05d1f3d50bc46eb89e0053576752795c98766233d599223f5aca6da
+Section: Networking
+Description: A Trojan proxy written in Go.
+Author: PageFault (p4gefau1t)
+Name: trojan-go
+
