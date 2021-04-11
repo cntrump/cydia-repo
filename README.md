@@ -1,6 +1,6 @@
 # Lvv's Repo
 
-Make some funny.
+Make some funny. [View on GitHub](https://github.com/cntrump/cydia-repo)
 
 Add cydia source: `https://cydia.lvv.me`
 
