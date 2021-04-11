@@ -5,13 +5,13 @@ Maintainer: lvv (me@lvv.me)
 Depends: firmware (>= 10.0)
 Filename: debs/clash.deb
 Size: 3713216
-MD5sum: e765738c53dc180def0df1b90a33b40b
-SHA1: 5c45abaa30d74307e4e80dd15a2c5d4d9f59162b
-SHA256: 7b72a11faf294e794f64efc4db38ead47c09400ce12b29ca74d3093542e5304e
+MD5sum: 220d76927b47146f11735f22be8b8253
+SHA1: fd48b1eca6e60f59890141faf9a18a843095480a
+SHA256: d33d26096c9ca85ba6c5bef28a65d21d46157d829c5c4548f3f94b398004b333
 Section: Networking
 Description: A rule-based tunnel in Go.
 Author: Dreamacro (Dreamacro)
-Name: clash
+Name: Clash
 
 Package: com.github.caddyserver.caddy
 Version: 2.3.0-1
@@ -20,13 +20,13 @@ Maintainer: lvv (me@lvv.me)
 Depends: firmware (>= 10.0)
 Filename: debs/caddy.deb
 Size: 7740176
-MD5sum: d8e68664cedaef37e57cb0e0be74bb15
-SHA1: 1558da5c1060f69e26ccee287fd4bffd8cdab06d
-SHA256: 5af01918393632745bd430c9d293c8d059861525a07612d7f5cde90c1db60d70
+MD5sum: 9d79975efd65eb44aaf351f1d46f6714
+SHA1: c061532eee7e478a18eaaf874477cd8b6abf720c
+SHA256: 1cb1675e050bad012b4963f9fdeac48f28e4be83e959e39ab63b968dadfd70f8
 Section: Networking
 Description: Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.
 Author: Caddy (Caddy)
-Name: caddy
+Name: Caddy
 
 Package: com.github.p4gefau1t.trojan-go
 Version: 0.8.3-22
@@ -34,12 +34,12 @@ Architecture: iphoneos-arm
 Maintainer: lvv (me@lvv.me)
 Depends: firmware (>= 10.0)
 Filename: debs/trojan-go.deb
-Size: 3420400
-MD5sum: d0ff1ca03e490644bfe02350c7d4a383
-SHA1: b033fe6b6510f8641e2522b2b1a0c646dde59a72
-SHA256: abd9ff9bcf381207e8ad11350bae6a9a897a413d7a88bb7d5d1a36636aa8407e
+Size: 3420460
+MD5sum: 63666880e4107632f327aae50f058f50
+SHA1: cdabea04955a3711ad8ad4745d477aa9d83c643e
+SHA256: 3b1d777bf6191adf82820692d751776b961fc34bfa2d3781544f856e2316cce8
 Section: Networking
 Description: A Trojan proxy written in Go.
 Author: PageFault (p4gefau1t)
-Name: trojan-go
+Name: Trojan-Go
 

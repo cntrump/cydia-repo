@@ -1,5 +1,5 @@
 Package: com.github.caddyserver.caddy
-Name: caddy
+Name: Caddy
 Version: 2.3.0-1
 Architecture: iphoneos-arm
 Description: Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.

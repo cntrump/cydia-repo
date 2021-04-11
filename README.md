@@ -18,7 +18,7 @@ config: `/usr/etc/clash/config.yaml`
 
 restart: `launchctl kickstart -k system/com.github.Dreamacro.clash`
 
-## Trojan-go
+## Trojan-Go
 
 Home: [https://github.com/p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go)
 
