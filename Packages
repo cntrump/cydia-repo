@@ -3,11 +3,11 @@ Version: 1.5.0-7
 Architecture: iphoneos-arm
 Maintainer: lvv (me@lvv.me)
 Depends: firmware (>= 10.0)
-Filename: ./clash.deb
+Filename: debs/clash.deb
 Size: 3713576
-MD5sum: 866543c3c357415b8271b037a68e1f25
-SHA1: 49d1fef835bdee43ba255f0ac253518f38dd6c9e
-SHA256: 953386260a76d77e687ab07f21fc9d29b62c867405e39fc10c9e56e0dbfbcbbc
+MD5sum: 42707239303a0db1f5a6c7df435149d0
+SHA1: 6e07e6ae3a8fda17dedf45c91019bfc7b83a19bd
+SHA256: f328030733da39d3860c132f30e23573ba9f7b0e7820badeefa9f779bbf58e6f
 Section: Networking
 Description: A rule-based tunnel in Go.
 Author: Dreamacro (Dreamacro)
@@ -18,11 +18,11 @@ Version: 0.8.3-22
 Architecture: iphoneos-arm
 Maintainer: lvv (me@lvv.me)
 Depends: firmware (>= 10.0)
-Filename: ./trojan-go.deb
+Filename: debs/trojan-go.deb
 Size: 3420396
-MD5sum: 1ed65b6ca225fcfba4b24c5d42ca461b
-SHA1: 4b286d38be39d94b5f2aa1ee52341f8bc922a357
-SHA256: 2550df8c8a4788b0dd15e529fbaeba5c845037f8f6f3d5f98054fe86828aff91
+MD5sum: 7b5c17b31ee28fee06555b2fdc0e44d1
+SHA1: a2a7db4d29c81ca2b7ead7810b728070cfdc51b4
+SHA256: d1ce46350b45ad912f3c9c582c8a98f855fb9ee919be8aa6a19ee863786b9277
 Section: Networking
 Description: A Trojan proxy written in Go.
 Author: PageFault (p4gefau1t)
