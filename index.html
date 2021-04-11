@@ -4591,6 +4591,7 @@ ul.task-list{list-style: none;}
         <ul>
         <li><a href="#clash">Clash</a></li>
         <li><a href="#trojan-go">Trojan-go</a></li>
+        <li><a href="#caddy">Caddy</a></li>
         </ul></li>
         </ul>
       </nav>
@@ -4612,7 +4613,16 @@ ul.task-list{list-style: none;}
 <p>A Trojan proxy written in Go.</p>
 <p>Depends: <code>iOS Firmware &gt;= 10.0</code></p>
 <p>config: <code>/usr/etc/trojan-go/config.json</code></p>
+<p>log: <code>/var/log/trojan-go</code></p>
 <p>restart: <code>launchctl kickstart -k system/com.github.p4gefau1t.trojan-go</code></p>
+<h2 id="caddy">Caddy</h2>
+<p>Home: <a href="https://github.com/caddyserver/caddy">https://github.com/caddyserver/caddy</a></p>
+<p>Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.</p>
+<p>Depends: <code>iOS Firmware &gt;= 10.0</code></p>
+<p>config: <code>/usr/etc/caddy/Caddyfile</code></p>
+<p>root: <code>/usr/etc/caddy/www</code></p>
+<p>log: <code>/var/log/caddy</code></p>
+<p>restart: <code>launchctl kickstart -k system/com.github.caddyserver.caddy</code></p>
     </article>
   </section>
 </main>
