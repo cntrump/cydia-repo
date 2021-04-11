@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+set -e
+
+daemon=/Library/LaunchDaemons/com.github.caddyserver.caddy.plist
+if [ -f ${daemon} ]; then
+  launchctl unload -w ${daemon}
+fi
+
+config=/usr/etc/caddy/Caddyfile
+if [ -f ${config} ]; then
+  mv ${config} ${config}.bak
+fi

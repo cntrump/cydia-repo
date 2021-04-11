@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+set -e
+
+clash=/usr/bin/clash
+chown root:wheel ${clash}
+ldid -S ${clash}
+
+config=/usr/etc/clash/config.yaml
+if [ -f ${config}.bak ]; then
+  mv ${config}.bak ${config}
+fi
+
+daemon=/Library/LaunchDaemons/com.github.Dreamacro.clash.plist
+if [ -f ${daemon} ]; then
+  chown root:wheel ${daemon}
+  launchctl load -w ${daemon}
+fi

@@ -1,0 +1,19 @@
+{
+	http_port 80
+	https_port 443
+	auto_https off
+
+	admin off
+}
+
+:80 :443 {
+	root * /usr/etc/caddy/www
+	file_server
+	log {
+		level ERROR
+		format console
+		output file /var/log/caddy/access.log {
+			roll_keep_for 72h
+		}
+    }
+}

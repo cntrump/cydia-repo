@@ -1,0 +1,23 @@
+{
+    "log_level": 1,
+    "run_type": "client",
+    "local_addr": "0.0.0.0",
+    "local_port": 7788,
+    "remote_addr": "your-server",
+    "remote_port": 443,
+    "password": [
+        "passwd"
+    ],
+    "ssl": {
+        "sni": "your-server",
+        "alpn": [
+            "h2",
+            "http/1.1"
+        ]
+    },
+    "websocket": {
+        "enabled": true,
+        "host": "your-server",
+        "path": "/wspath"
+    }
+}

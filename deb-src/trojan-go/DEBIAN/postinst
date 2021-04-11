@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+set -e
+
+trojan=/usr/bin/trojan-go
+chown root:wheel ${trojan}
+ldid -S ${trojan}
+
+config=/usr/etc/trojan-go/config.json
+if [ -f ${config}.bak ]; then
+  mv ${config}.bak ${config}
+fi
+
+log=/var/log/trojan-go
+if [ ! -d ${log} ]; then
+  mkdir -p ${log}
+fi
+
+daemon=/Library/LaunchDaemons/com.github.p4gefau1t.trojan-go.plist
+if [ -f ${daemon} ]; then
+  chown root:wheel ${daemon}
+  launchctl load -w ${daemon}
+fi

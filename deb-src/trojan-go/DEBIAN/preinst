@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+set -e
+
+daemon=/Library/LaunchDaemons/com.github.p4gefau1t.trojan-go.plist
+if [ -f ${daemon} ]; then
+  launchctl unload -w ${daemon}
+fi
+
+config=/usr/etc/trojan-go/config.json
+if [ -f ${config} ]; then
+  mv ${config} ${config}.bak
+fi

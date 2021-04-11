@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+set -e
+
+daemon=/Library/LaunchDaemons/com.github.Dreamacro.clash.plist
+if [ -f ${daemon} ]; then
+  launchctl unload -w ${daemon}
+fi
+
+config=/usr/etc/clash/config.yaml
+if [ -f ${config} ]; then
+  mv ${config} ${config}.bak
+fi

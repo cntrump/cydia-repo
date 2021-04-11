@@ -1,0 +1,9 @@
+Package: com.github.p4gefau1t.trojan-go
+Name: trojan-go
+Version: 0.8.3-22
+Architecture: iphoneos-arm
+Description: A Trojan proxy written in Go.
+Maintainer: lvv (me@lvv.me)
+Author: PageFault (p4gefau1t)
+Section: Networking
+Depends: firmware (>= 10.0)

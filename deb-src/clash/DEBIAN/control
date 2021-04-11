@@ -1,0 +1,9 @@
+Package: com.github.Dreamacro.clash
+Name: clash
+Version: 1.5.0-7
+Architecture: iphoneos-arm
+Description: A rule-based tunnel in Go.
+Maintainer: lvv (me@lvv.me)
+Author: Dreamacro (Dreamacro)
+Section: Networking
+Depends: firmware (>= 10.0)

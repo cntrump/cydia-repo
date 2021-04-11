@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+set -e
+
+log=/var/log/caddy
+if [ -d ${log} ]; then
+  rm -rf ${log}
+fi

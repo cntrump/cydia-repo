@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+set -e
+
+daemon=/Library/LaunchDaemons/com.github.Dreamacro.clash.plist
+if [ -f ${daemon} ]; then
+  launchctl unload -w ${daemon}
+fi
