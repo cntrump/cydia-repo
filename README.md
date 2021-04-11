@@ -6,7 +6,7 @@ Add cydia source: `https://cydia.lvv.me`
 
 ## Clash
 
-Home: https://github.com/Dreamacro/clash
+Home: [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
 
 A rule-based tunnel in Go.
 
@@ -16,11 +16,11 @@ dashboard: `http://127.0.0.1:9090/ui`
 
 config: `/usr/etc/clash/config.yaml`
 
-restart: `launchctl kickstart -k com.github.Dreamacro.clash`
+restart: `launchctl kickstart -k system/com.github.Dreamacro.clash`
 
 ## Trojan-go
 
-Home: https://github.com/p4gefau1t/trojan-go
+Home: [https://github.com/p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go)
 
 A Trojan proxy written in Go.
 
@@ -28,4 +28,4 @@ Depends: `iOS Firmware >= 10.0`
 
 config: `/usr/etc/trojan-go/config.json`
 
-restart: `launchctl kickstart -k com.github.p4gefau1t.trojan-go`
+restart: `launchctl kickstart -k system/com.github.p4gefau1t.trojan-go`
