@@ -7,7 +7,7 @@
 }
 
 :80 :443 {
-	root * /usr/etc/caddy/www
+	root * /usr/etc/caddy/www-data
 	file_server
 	log {
 		level ERROR

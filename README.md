@@ -42,7 +42,7 @@ Depends: `iOS Firmware >= 10.0`
 
 config: `/usr/etc/caddy/Caddyfile`
 
-root: `/usr/etc/caddy/www`
+web root: `/usr/etc/caddy/www-data`
 
 log: `/var/log/caddy`
 
