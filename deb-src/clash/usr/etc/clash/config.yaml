@@ -9,6 +9,13 @@ external-ui: dashboard
 secret: ""
 profile:
   store-selected: true
+dns:
+  enable: false
+  listen: 0.0.0.0:53
+  ipv6: false
+  nameserver:
+  - 1.1.1.1
+  - 1.0.0.1
 proxies:
 - name: "socks"
   type: socks5
