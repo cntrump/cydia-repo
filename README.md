@@ -47,3 +47,14 @@ web root: `/usr/etc/caddy/www-data`
 log: `/var/log/caddy`
 
 restart: `launchctl kickstart -k system/com.github.caddyserver.caddy`
+
+build with plugins:
+
+- certmagic
+- ntlm-transport
+- forwardproxy
+- jsonc-adapter
+- json5-adapter
+- cue-adapter
+- format-encoder
+- replace-response
